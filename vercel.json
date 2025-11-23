@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/vehicle.py": {
+    "/index.py": {
       "runtime": "python3.10"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/vehicle.py" }
+    { "src": "/(.*)", "dest": "/index.py" }
   ]
 }
